@@ -1,7 +1,10 @@
 ---
 abstract: ~
 author:
-  - 'Yuval Kogman C<nothingmuch@woobling.org>'
+  - 'Yuval Kogman C<<nothingmuch@woobling.org>>'
+build_requires:
+  Test::WWW::Mechanize::Catalyst: 0
+  Test::use::ok: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.75'
 license: perl
@@ -18,4 +21,4 @@ requires:
   Catalyst::Plugin::Authentication: 0.10006
   Class::Accessor::Fast: 0
   Crypt::PasswdMD5: 0
-version: 1.001
+version: 1.002
